@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "amnKt26FsVw7kpGXUdzfVDGYYMg",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "zGQ95N1I_ZbdZnY0yWrd4NBG7fg",
+      "id": "RawUlgl-DoA",
+      "contentDetails": {
+        "duration": "PT19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

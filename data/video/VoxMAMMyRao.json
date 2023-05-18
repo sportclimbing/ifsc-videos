@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "5LzaajZ_swG8EFp5KX8rbq1lQfk",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "QnScyuFDVT7mSqHH4BFBQ19CCfA",
+      "id": "VoxMAMMyRao",
+      "contentDetails": {
+        "duration": "PT1H55M7S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

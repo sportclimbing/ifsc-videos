@@ -1,0 +1,30 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "YtQrVxJpv7q5-kFqdEKFuaab4WY",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "dlziXmiSucXr47-iq3y8HDBSWic",
+      "id": "fFzw63dP1YM",
+      "contentDetails": {
+        "duration": "PT2H56M36S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

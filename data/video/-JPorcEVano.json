@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "bPTT2ptCBP1dPtjoUSVtBO1Tg8w",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "hSuYnZhQ-UslaktW8IIFnf0rxK4",
+      "id": "-JPorcEVano",
+      "contentDetails": {
+        "duration": "PT3M20S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

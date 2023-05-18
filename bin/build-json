@@ -1,0 +1,43 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+function duration_to_minutes(string $duration): int
+{
+    $minutes = 0;
+
+    if (preg_match('~^PT(?:(?<hours>\d)H)?(?:(?<minutes>\d{1,2})M)?(?:(?<seconds>\d{1,2})S)?$~', $duration, $match)) {
+        if (isset($match['hours'])) {
+            $minutes += ((int) $match['hours']) * 60;
+        }
+
+        if (isset($match['minutes'])) {
+            $minutes += (int) $match['minutes'];
+        }
+    }
+
+    return $minutes;
+}
+
+$results = [];
+
+foreach (glob(__DIR__ . "/../data/search/*.json") as $searchFile) {
+    $search = json_decode(file_get_contents($searchFile));
+
+    foreach ($search->items as $searchItem) {
+        $video = json_decode(file_get_contents(__DIR__ . "/../data/video/{$searchItem->id->videoId}.json"));
+        $durationInMinutes = duration_to_minutes($video->items[0]->contentDetails->duration);
+
+        if ($durationInMinutes > 1) {
+            $results[] = [
+                'video_id' => $searchItem->id->videoId,
+                'title' => html_entity_decode($searchItem->snippet->title, encoding: 'utf-8'),
+                'published_at' => $searchItem->snippet->publishedAt,
+                'duration' => $durationInMinutes,
+            ];
+        }
+    }
+}
+
+usort($results, static fn (array $result1, array $result2): int => new DateTime($result2['published_at']) <=> new DateTime($result1['published_at']));
+
+echo json_encode($results, JSON_PRETTY_PRINT), PHP_EOL;

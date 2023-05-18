@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "MnzlkC532MIbP3YXI8SjxNjDe-0",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "ZOCFSgi63853Oel9iu3yVZ7Axec",
+      "id": "OHhg5J-qUEM",
+      "contentDetails": {
+        "duration": "PT4M45S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "JewKf4f3j2uTHjUenMD_XHeroPU",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "FPAZ--JOlj3sIdtcZJv9CAeados",
+      "id": "iz7-t3cj0CQ",
+      "contentDetails": {
+        "duration": "PT4H6M8S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

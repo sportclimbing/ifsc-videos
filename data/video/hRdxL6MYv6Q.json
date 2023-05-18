@@ -1,0 +1,49 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "IVOp_2Q9xPlnjOqMwNwY084tGcs",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "cutJ2KBK0BoSZEMugtuhd4dahTo",
+      "id": "hRdxL6MYv6Q",
+      "contentDetails": {
+        "duration": "PT1H24M57S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "AR",
+            "BO",
+            "BR",
+            "BZ",
+            "CL",
+            "CO",
+            "CR",
+            "EC",
+            "GF",
+            "GT",
+            "GY",
+            "HN",
+            "MX",
+            "NI",
+            "PA",
+            "PE",
+            "PY",
+            "SR",
+            "SV",
+            "UY",
+            "VE"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

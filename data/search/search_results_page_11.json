@@ -1,0 +1,216 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "-8GhJEMnrFn0r1MunkDYs33Y7WM",
+  "prevPageToken": "CPQDEAE",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1316,
+    "resultsPerPage": 6
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4pmvy-q5_EVq4wBK-wwZaMkPvww",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0giLVY_A9_0"
+      },
+      "snippet": {
+        "publishedAt": "2016-04-19T20:19:00Z",
+        "channelId": "UC2MGuhIaOP6YLpUx106kTQw",
+        "title": "Upcoming LiveStream Trailer - IFSC Climbing World Cup Kazo 2016 - Bouldering",
+        "description": "Don't miss out on the live action, tune in! Interact with us during the event through your Twitter account, with the #IFSCwc hashtag.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0giLVY_A9_0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0giLVY_A9_0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0giLVY_A9_0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "International Federation of Sport Climbing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-04-19T20:19:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9nFbbHFizyplwP4esWel4Pts5A8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "amkimB6uuYA"
+      },
+      "snippet": {
+        "publishedAt": "2016-04-12T06:51:20Z",
+        "channelId": "UC2MGuhIaOP6YLpUx106kTQw",
+        "title": "Upcoming LiveStream Trailer - IFSC Climbing World Cup Meiringen 2016 - Bouldering",
+        "description": "Don't miss out on the live action, tune in! Interact with us during the event through your Twitter account, with the #IFSCwc hashtag.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/amkimB6uuYA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/amkimB6uuYA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/amkimB6uuYA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "International Federation of Sport Climbing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-04-12T06:51:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2CqDcJ0PedM5C-uAqUC3LmnsKNM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nPWDcBH4cOk"
+      },
+      "snippet": {
+        "publishedAt": "2015-11-15T20:37:40Z",
+        "channelId": "UC2MGuhIaOP6YLpUx106kTQw",
+        "title": "IFSC Climbing World Cup Kranj 2015 - Lead - Final - Male/Female",
+        "description": "More information: http://www.ifsc-climbing.org/index.php/component/ifsc/?view=event&WetId=1593.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nPWDcBH4cOk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nPWDcBH4cOk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nPWDcBH4cOk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "International Federation of Sport Climbing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-11-15T20:37:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JWNPvZx0aGkRdIf5aZD_oGPHOXw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WLq0xYSxUYg"
+      },
+      "snippet": {
+        "publishedAt": "2015-08-30T19:17:54Z",
+        "channelId": "UC2MGuhIaOP6YLpUx106kTQw",
+        "title": "IFSC Climbing World Cup Stavanger 2015 - Lead - Semi-Finals - Male/Female",
+        "description": "More information: http://www.ifsc-climbing.org/index.php/component/ifsc/?view=event&WetId=1591.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WLq0xYSxUYg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WLq0xYSxUYg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WLq0xYSxUYg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "International Federation of Sport Climbing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-08-30T19:17:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nx8Vh318JPPTkfNiKcUeQBBJ5so",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EWJ9FTrViWw"
+      },
+      "snippet": {
+        "publishedAt": "2015-08-20T12:32:25Z",
+        "channelId": "UC2MGuhIaOP6YLpUx106kTQw",
+        "title": "Adam Ondra IWGA Athlete of the Year 2014",
+        "description": "Adam Ondra tells us how he is happy to have won IWGA Athlete of the Year 2014, as it will also promote the climbing sport in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EWJ9FTrViWw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EWJ9FTrViWw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EWJ9FTrViWw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "International Federation of Sport Climbing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-08-20T12:32:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "II7wx5z4X8I6r6W8WrXtqtmC3F8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gLZntJNWXqc"
+      },
+      "snippet": {
+        "publishedAt": "2015-08-14T17:17:48Z",
+        "channelId": "UC2MGuhIaOP6YLpUx106kTQw",
+        "title": "IFSC Climbing World Cup Munich Trailer",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gLZntJNWXqc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gLZntJNWXqc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gLZntJNWXqc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "International Federation of Sport Climbing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-08-14T17:17:48Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?php declare(strict_types=1);
+
+/**
+ * @license  http://opensource.org/licenses/mit-license.php MIT
+ * @link     https://github.com/nicoSWD
+ * @author   Nicolas Oelgart <nico@oelgart.com>
+ */
+namespace nicoSWD\IfscVideos\Domain\YouTube;
+
+use Closure;
+
+final readonly class YouTubeVideoCollection
+{
+    public function __construct(
+        private YouTubeVideoProviderInterface $youTubeVideoProvider,
+    ) {
+    }
+
+    /** @return YouTubeVideo[] */
+    public function getVideosForSeason(int $season): array
+    {
+        return array_filter(
+            $this->youTubeVideoProvider->getAllVideos(),
+            $this->seasonFilter($season)
+        );
+    }
+
+    private function seasonFilter(int $season): Closure
+    {
+        return static fn (YouTubeVideo $youTubeVideo) => (int) $youTubeVideo->publishedAt->format('Y') === $season;
+    }
+}

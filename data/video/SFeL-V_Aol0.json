@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "ZbqKq2rV7XGfz3olWWC4bE8UT_o",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "DSHZWdTb6HwecT2P59tJk_Qywhk",
+      "id": "SFeL-V_Aol0",
+      "contentDetails": {
+        "duration": "PT3M1S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

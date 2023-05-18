@@ -1,2 +1,3 @@
-# ifsc-videos
-IFSC YouTube Video Collection
+# IFSC YouTube Video Collection
+
+Quick and dirty, might improve later
