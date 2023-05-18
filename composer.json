@@ -2,7 +2,6 @@
   "name": "sportclimbing/ifsc-youtube-videos",
   "type": "library",
   "license": "MIT",
-  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Nico Oelgart",
