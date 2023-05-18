@@ -29,7 +29,7 @@ final readonly class YouTubeVideoProvider implements YouTubeVideoProviderInterfa
         return $videos;
     }
 
-    private function importVideosFromFile(): object
+    private function importVideosFromFile(): array
     {
         return json_decode(file_get_contents(__DIR__ . '/../../../data/videos.json'));
     }
