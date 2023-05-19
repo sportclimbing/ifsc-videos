@@ -3,7 +3,7 @@
 
 require __DIR__ . '/functions.php';
 
-$opts = getopt('', ['old:', 'new:']);
+$opts = getopt('', ['old-videos:', 'new-videos:']);
 
 $oldVideos = json_file($opts['old-videos']);
 $newVideos = json_file($opts['new-videos']);
