@@ -1,0 +1,70 @@
+name: Update video database
+
+on:
+  schedule:
+    - cron:  '0 */6 * * *' # every 6 hours
+  workflow_dispatch:
+
+env:
+  YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout code"
+        uses: actions/checkout@master
+
+      - name: "Setup PHP"
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          tools: composer
+
+      - name: "Fetch latest videos"
+        run: php bin/update-database > data/new-videos.json
+
+      - name: "Check diff"
+        id: check_diff
+        run: |
+          php bin/diff \
+            --old-videos data/videos.json \ 
+            --new-videos data/new-videos.json > /tmp/diff.txt
+
+          if [ $(wc -w < /tmp/diff.txt) -gt 0 ]; then
+            echo -e "Added these videos:\n\n$(cat diff.txt)" > /tmp/diff.txt
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          
+            mv data/new-videos.json data/videos.json
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: "Commit changes"
+        uses: EndBug/add-and-commit@v9
+        if: steps.check_diff.outputs.has_changes == 'true'
+        with:
+          author_name: Nico Oelgart
+          author_email: nico@oelgart.com
+          message: 'Add new videos'
+
+      - name: "Bump version and push tag"
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.1
+        if: steps.check_diff.outputs.has_changes == 'true'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Add release"
+        uses: softprops/action-gh-release@v1
+        if: steps.check_diff.outputs.has_changes == 'true'
+        with:
+          tag_name: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body_path: /tmp/diff.txt
+
+      - name: "Run latest-tag"
+        if: steps.check_diff.outputs.has_changes == 'true'
+        uses: Actions-R-Us/actions-tagger@latest
+        with:
+          publish_latest_tag: true

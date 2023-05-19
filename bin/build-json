@@ -1,22 +1,7 @@
 #!/usr/bin/env php
 <?php declare(strict_types=1);
 
-function duration_to_minutes(string $duration): int
-{
-    $minutes = 0;
-
-    if (preg_match('~^PT(?:(?<hours>\d)H)?(?:(?<minutes>\d{1,2})M)?(?:(?<seconds>\d{1,2})S)?$~', $duration, $match)) {
-        if (isset($match['hours'])) {
-            $minutes += ((int) $match['hours']) * 60;
-        }
-
-        if (isset($match['minutes'])) {
-            $minutes += (int) $match['minutes'];
-        }
-    }
-
-    return $minutes;
-}
+require __DIR__ . '/functions.php';
 
 $results = [];
 

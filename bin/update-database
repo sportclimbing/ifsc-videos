@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+require __DIR__ . '/functions.php';
+
+$currentVideos = get_current_videos();
+$missingVideos = [];
+
+foreach (fetch_recent_youtube_videos() as $video) {
+    $videoId = $video->id->videoId;
+
+    if (!video_exists($currentVideos, $videoId)) {
+        $videoDetails = video_details($videoId);
+        $durationInMinutes = duration_to_minutes($videoDetails->contentDetails->duration);
+
+        $missingVideos[] = [
+            'video_id' => $videoId,
+            'title' => html_entity_decode($video->snippet->title, encoding: 'utf-8'),
+            'published_at' => $video->snippet->publishedAt,
+            'duration' => $durationInMinutes,
+        ];
+    }
+}
+
+echo json_encode(array_merge($missingVideos, $currentVideos), flags: JSON_PRETTY_PRINT);
