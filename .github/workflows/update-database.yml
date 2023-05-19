@@ -33,7 +33,7 @@ jobs:
           php bin/diff --old-videos "data/videos.json" --new-videos "data/new-videos.json" > /tmp/diff.txt
 
           if [ $(wc -w < /tmp/diff.txt) -gt 0 ]; then
-            echo -e "Added these videos:\n\n$(cat /tmp/diff.txt)" > /tmp/diff.txt
+            echo -e "Added these videos:\n\n$(cat /tmp/diff.txt)" > /tmp/diff_body.txt
             echo "has_changes=true" >> $GITHUB_OUTPUT
           
             mv data/new-videos.json data/videos.json
@@ -62,7 +62,7 @@ jobs:
         with:
           tag_name: ${{ steps.tag_version.outputs.new_tag }}
           name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body_path: /tmp/diff.txt
+          body_path: /tmp/diff_body.txt
 
       - name: "Run latest-tag"
         if: steps.check_diff.outputs.has_changes == 'true'
