@@ -1,3 +1,16 @@
 # IFSC YouTube Video Collection
 
-Quick and dirty, might improve later
+[![Update video database](https://github.com/sportclimbing/ifsc-videos/actions/workflows/update-database.yml/badge.svg)](https://github.com/sportclimbing/ifsc-videos/actions/workflows/update-database.yml)
+
+This fetches stream URLs from IFSC's YouTube channel using the API. Stream URLs are usually available there
+days before an event starts. Their online calendar is not always up-to-date, and URLs are often missing.
+
+This is used by [sportclimbing/ifsc-calendar](https://github.com/sportclimbing/ifsc-calendar) which generates
+the calendar files for [sportclimbing/web](https://github.com/sportclimbing/web).
+
+Video information, such as title, ID, length, and publish date, can be found in [data/videos.json](data/videos.json)
+
+This can be installed via composer:
+```shell
+$ composer require sportclimbing/ifsc-youtube-videos:dev-main
+```
