@@ -8,6 +8,10 @@ on:
 env:
   YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
+permissions:
+  contents: write
+  repository-projects: write
+
 jobs:
   update-database:
     runs-on: ubuntu-latest
