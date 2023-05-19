@@ -19,7 +19,6 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          tools: composer
 
       - name: "Fetch latest videos"
         run: php bin/update-database > data/new-videos.json
@@ -27,9 +26,7 @@ jobs:
       - name: "Check diff"
         id: check_diff
         run: |
-          php bin/diff \
-            --old-videos data/videos.json \ 
-            --new-videos data/new-videos.json > /tmp/diff.txt
+          php bin/diff --old-videos "data/videos.json" --new-videos "data/new-videos.json" > /tmp/diff.txt
 
           if [ $(wc -w < /tmp/diff.txt) -gt 0 ]; then
             echo -e "Added these videos:\n\n$(cat diff.txt)" > /tmp/diff.txt
