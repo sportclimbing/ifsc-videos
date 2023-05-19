@@ -20,8 +20,6 @@ foreach (fetch_recent_youtube_videos() as $video) {
             'published_at' => $video->snippet->publishedAt,
             'duration' => $durationInMinutes,
         ];
-
-        echo "[+] Added {$videoTitle}", PHP_EOL;
     }
 }
 
