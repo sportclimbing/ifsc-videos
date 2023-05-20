@@ -10,6 +10,6 @@ $newVideos = json_file($opts['new-videos']);
 
 foreach ($newVideos as $newVideo) {
     if (!video_exists($oldVideos, $newVideo->video_id)) {
-        echo '- "', $newVideo->title, '"', PHP_EOL;
+        echo '- [', $newVideo->title, '](https://youtu.be/', $newVideo->video_id . ')', PHP_EOL;
     }
 }

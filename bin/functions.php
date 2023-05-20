@@ -132,7 +132,7 @@ function get_contents_or_fail(string $url): string
     $contents = @file_get_contents($url);
 
     if (!is_string($contents)) {
-        echo 'Unable to retrieve contents from URL: ', $url, PHP_EOL;
+        echo 'Unable to retrieve contents from URL', PHP_EOL;
         exit(1);
     }
 
