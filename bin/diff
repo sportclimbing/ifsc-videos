@@ -18,7 +18,7 @@ foreach ($newVideos as $newVideo) {
         $added[] = sprintf('- [%s](https://youtu.be/%s)', $newVideo->title, $newVideo->video_id);
     } else {
         if ($oldVideo->duration !== $newVideo->duration) {
-            $updated[] = "- *$oldVideo->title* changed from {$oldVideo->duration} minutes to $newVideo->duration";
+            $updated[] = sprintf('- *[%s](https://youtu.be/%s)* changed from %d minutes to %d', $oldVideo->title, $oldVideo->video_id, $oldVideo->duration, $newVideo->duration);
         }
     }
 }
