@@ -6,11 +6,11 @@ require __DIR__ . '/functions.php';
 $results = [];
 
 foreach (glob(__DIR__ . "/../data/search/*.json") as $searchFile) {
-    $search = json_decode(file_get_contents($searchFile));
+    $search = json_file($searchFile);
 
     foreach ($search->items as $searchItem) {
-        $video = json_decode(file_get_contents(__DIR__ . "/../data/video/{$searchItem->id->videoId}.json"));
-        $durationInMinutes = duration_to_minutes($video->items[0]->contentDetails->duration);
+        $video = json_file(__DIR__ . "/../data/video/{$searchItem->id->videoId}.json");
+        $durationInMinutes = duration_to_minutes($video->items[0]);
 
         if ($durationInMinutes > 1) {
             $results[] = [

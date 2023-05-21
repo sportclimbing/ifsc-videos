@@ -4,20 +4,30 @@ const YOUTUBE_API_URL = 'https://www.googleapis.com/youtube/v3';
 const IFSC_CHANNEL_ID = 'UC2MGuhIaOP6YLpUx106kTQw';
 const DATABASE_FILE = __DIR__ . '/../data/videos.json';
 
-function duration_to_minutes(string $duration): int
+function normalize_title(object $video): string
+{
+    return html_entity_decode($video->snippet->title, encoding: 'utf-8');
+}
+
+function remove_video_with_id(array $currentVideos, string $videoId): array
+{
+    return array_filter($currentVideos, static fn (object $video): bool => $video->video_id !== $videoId);
+}
+
+function duration_to_minutes(object $video): int
 {
     $minutes = 0;
 
-    if (preg_match('~^PT(?:(?<hours>\d)H)?(?:(?<minutes>\d{1,2})M)?(?:(?<seconds>\d{1,2})S)?$~', $duration, $match)) {
-        if (isset($match['hours'])) {
-            $minutes += ((int) $match['hours']) * 60;
+    if (preg_match('~^PT(?:(?<hours>\d)H)?(?:(?<minutes>\d{1,2})M)?(?:(?<seconds>\d{1,2})S)?$~', $video->contentDetails->duration, $duration)) {
+        if (isset($duration['hours'])) {
+            $minutes += ((int) $duration['hours']) * 60;
         }
 
-        if (isset($match['minutes'])) {
-            $minutes += (int) $match['minutes'];
+        if (isset($duration['minutes'])) {
+            $minutes += (int) $duration['minutes'];
         }
 
-        if (isset($match['seconds']) && $match['seconds'] > 40) {
+        if (isset($duration['seconds']) && $duration['seconds'] >= 30) {
             $minutes += 1;
         }
     }
@@ -79,11 +89,11 @@ function video_exists(array $currentVideos, string $videoId): bool
     return count($videos) > 0;
 }
 
-function video_details(string $videoId): object
+function video_details(string $videoId, bool $useCache = true): object
 {
     $fileName = sprintf('%s/../data/video/%s.json', __DIR__, $videoId);
 
-    if (!file_exists($fileName)) {
+    if (!file_exists($fileName) || !$useCache) {
         $response = get_contents_or_fail(
             build_api_video_details_url($videoId)
         );
@@ -97,6 +107,17 @@ function video_details(string $videoId): object
     }
 
     return $json->items[0];
+}
+
+function video_by_id(array $oldVideos, string $videoId): ?object
+{
+    foreach ($oldVideos as $oldVideo) {
+        if ($oldVideo->video_id === $videoId) {
+            return $oldVideo;
+        }
+    }
+
+    return null;
 }
 
 function assert_is_json(string $data)
@@ -154,4 +175,9 @@ function json_file(string $file): object|array
     return json_decode_or_fail(
         get_contents_or_fail($file)
     );
+}
+
+function sort_by_date(array &$videos): void
+{
+    usort($videos, static fn (object $video1, object $video2): int => new DateTime($video2->published_at) <=> new DateTime($video1->published_at));
 }
