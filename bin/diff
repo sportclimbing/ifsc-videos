@@ -18,7 +18,7 @@ foreach ($newVideos as $newVideo) {
         $added[] = sprintf(
             '- [%s](https://youtu.be/%s)',
             $newVideo->title,
-            $newVideo->video_id
+            $newVideo->video_id,
         );
     } else {
         if ($oldVideo->duration !== $newVideo->duration) {
@@ -33,16 +33,5 @@ foreach ($newVideos as $newVideo) {
     }
 }
 
-if ($added) {
-    echo '**Added videos:**', PHP_EOL;
-    echo implode(PHP_EOL, $added), PHP_EOL;
-}
-
-if ($updated) {
-    if ($added) {
-        echo PHP_EOL;
-    }
-
-    echo '**Updated videos:**', PHP_EOL;
-    echo implode(PHP_EOL, $updated), PHP_EOL;
-}
+print_list('Added videos', $added);
+print_list('Updated videos', $updated);

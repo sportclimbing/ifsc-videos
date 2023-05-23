@@ -181,3 +181,13 @@ function sort_by_date(array &$videos): void
 {
     usort($videos, static fn (object $video1, object $video2): int => new DateTime($video2->published_at) <=> new DateTime($video1->published_at));
 }
+
+function print_list(string $title, array $items): void
+{
+    if (empty($items)) {
+        return;
+    }
+
+    echo "**{$title}:**", PHP_EOL;
+    echo implode(PHP_EOL, $items), PHP_EOL, PHP_EOL;
+}
