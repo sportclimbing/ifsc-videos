@@ -7,6 +7,7 @@ on:
 
 env:
   YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+  DEEP_AI_API_KEY: ${{ secrets.DEEP_AI_API_KEY }}
 
 permissions:
   contents: write
@@ -38,6 +39,15 @@ jobs:
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: "Optimize images"
+        if: steps.check_diff.outputs.has_changes == 'true'
+        run: |
+          for image in ./data/covers/upscaled/*.jpg; do
+            if [[ ! -f "./data/covers/optimized/$(basename -- $image)" ]]; then
+              php bin/crop --image "$image" --quality 70 --delete-original
+            fi
+          done
 
       - name: "Commit changes"
         uses: EndBug/add-and-commit@v9

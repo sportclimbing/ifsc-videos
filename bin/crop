@@ -1,0 +1,34 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+$opt = getopt('', ['image:', 'quality:', 'delete-original']);
+
+if (isset($opt['quality'])) {
+    $quality = (int) $opt['quality'];
+} else {
+    $quality = 70;
+}
+
+$cropPixels = 25;
+$saveAs = __DIR__ . '/../data/covers/optimized/' . basename($opt['image']);
+
+$image = imagecreatefromjpeg($opt['image']);
+$cropped = imagecrop($image, [
+    'x' => $cropPixels,
+    'y' => $cropPixels,
+    'width'  => imagesx($image) - ($cropPixels * 2),
+    'height' => imagesy($image) - ($cropPixels * 2),
+]);
+
+if ($cropped !== false) {
+    imagejpeg($cropped, $saveAs, quality: $quality);
+    imagedestroy($cropped);
+
+    echo '[+] Optimized image "', $opt['image'], '"', PHP_EOL;
+}
+
+imagedestroy($image);
+
+if (isset($opt['delete-original'])) {
+    unlink($opt['image']);
+}

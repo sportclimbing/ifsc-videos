@@ -4,6 +4,11 @@ const YOUTUBE_API_URL = 'https://www.googleapis.com/youtube/v3';
 const IFSC_CHANNEL_ID = 'UC2MGuhIaOP6YLpUx106kTQw';
 const DATABASE_FILE = __DIR__ . '/../data/videos.json';
 
+function hires_video_cover_url(string $videoId): string
+{
+    return sprintf('https://i.ytimg.com/vi/%s/maxresdefault.jpg', $videoId);
+}
+
 function normalize_title(object $video): string
 {
     return html_entity_decode($video->snippet->title, encoding: 'utf-8');
@@ -64,14 +69,24 @@ function build_video_details_params(string $videoId): string
 
 function get_api_key(): string
 {
-    $apiKey = (string) getenv('YOUTUBE_API_KEY');
+    return getenv_or_fail('YOUTUBE_API_KEY');
+}
 
-    if (!$apiKey) {
-        echo 'Missing YouTube API key', PHP_EOL;
+function get_deep_ai_api_key(): string
+{
+    return getenv_or_fail('DEEP_AI_API_KEY');
+}
+
+function getenv_or_fail(string $name): string
+{
+    $value = (string) getenv($name);
+
+    if (!$value) {
+        echo 'Missing env var "', $name, '"', PHP_EOL;
         exit(1);
     }
 
-    return $apiKey;
+    return $value;
 }
 
 function get_current_videos(): array
@@ -190,4 +205,55 @@ function print_list(string $title, array $items): void
 
     echo "**{$title}:**", PHP_EOL;
     echo implode(PHP_EOL, $items), PHP_EOL, PHP_EOL;
+}
+
+function download_video_cover(string $videoId): void
+{
+    $saveAs = __DIR__ . "/../data/covers/original/{$videoId}.jpg";
+
+    if (!is_file($saveAs)) {
+        copy(
+            hires_video_cover_url($videoId),
+            $saveAs
+        );
+    }
+}
+
+function download_upscaled_video_cover(string $videoId): void
+{
+    $saveAs = __DIR__ . "/../data/covers/upscaled/{$videoId}.jpg";
+    $saveAsOptimized = __DIR__ . "/../data/covers/optimized/{$videoId}.jpg";
+
+    if (is_file($saveAs) || is_file($saveAsOptimized)) {
+        return;
+    }
+
+    $ch = curl_init();
+    curl_setopt_array($ch, [
+        CURLOPT_URL => 'https://api.deepai.org/api/torch-srgan',
+        CURLOPT_HTTPHEADER => ['api-key:' . get_deep_ai_api_key()],
+        CURLOPT_POSTFIELDS => http_build_query(['image' => hires_video_cover_url($videoId)], arg_separator: '&'),
+        CURLOPT_RETURNTRANSFER => true,
+    ]);
+
+    try {
+        $response = (string) curl_exec($ch);
+        $json = json_decode($response, flags: JSON_THROW_ON_ERROR);
+    } catch (JsonException) {
+    }
+
+    if (!isset($json->output_url) || isset($json->err)) {
+        download_video_cover($videoId);
+    } else {
+        copy($json->output_url, $saveAs);
+    }
+}
+
+function is_comp_video(int $durationInMinutes): bool
+{
+    return
+        // programmed, but not streamed yet
+        $durationInMinutes === 0 ||
+        // probably not an "athlete of the week video
+        $durationInMinutes >= 30;
 }

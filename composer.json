@@ -9,7 +9,9 @@
     }
   ],
   "require": {
-    "php": ">=8.2"
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-gd": "*"
   },
   "autoload": {
     "psr-4": {

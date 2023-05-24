@@ -8,7 +8,8 @@ days before an event starts. Their online calendar is not always up-to-date, and
 This is used by [sportclimbing/ifsc-calendar](https://github.com/sportclimbing/ifsc-calendar) which generates
 the calendar files for [sportclimbing/web](https://github.com/sportclimbing/web).
 
-Video information, such as title, ID, length, and publish date, can be found in [data/videos.json](data/videos.json)
+- Video information, such as title, ID, length, and publish date, can be found in [data/videos.json](data/videos.json)
+- Video covers are [automatically downloaded](data/covers/), and magically upscaled using [deepai.org](https://deepai.org)
 
 This can be installed via composer:
 ```shell

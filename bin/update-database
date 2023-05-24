@@ -13,12 +13,16 @@ foreach (fetch_recent_youtube_videos() as $video) {
         $videoDetails = video_details($videoId);
         $durationInMinutes = duration_to_minutes($videoDetails);
 
-        $missingVideos[] = (object) [
-            'video_id' => $videoId,
-            'title' => normalize_title($video),
-            'published_at' => $video->snippet->publishedAt,
-            'duration' => $durationInMinutes,
-        ];
+        if (is_comp_video($durationInMinutes)) {
+            download_upscaled_video_cover($videoId);
+
+            $missingVideos[] = (object) [
+                'video_id' => $videoId,
+                'title' => normalize_title($video),
+                'published_at' => $video->snippet->publishedAt,
+                'duration' => $durationInMinutes,
+            ];
+        }
     } else {
         $cachedVideoDetails = video_details($videoId);
         $cachedDurationInMinutes = duration_to_minutes($cachedVideoDetails);
@@ -39,7 +43,7 @@ foreach (fetch_recent_youtube_videos() as $video) {
     }
 }
 
-$allVideos = array_merge($missingVideos, $currentVideos);
+$allVideos = [...$missingVideos, ...$currentVideos];
 
 sort_by_date($allVideos);
 
