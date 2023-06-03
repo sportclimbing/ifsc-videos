@@ -44,6 +44,10 @@ jobs:
         if: steps.check_diff.outputs.has_changes == 'true'
         run: |
           for image in ./data/covers/upscaled/*.jpg; do
+            if [[ ! -f "./data/covers/upscaled/$(basename -- $image)" ]]; then
+              continue
+            fi
+          
             if [[ ! -f "./data/covers/optimized/$(basename -- $image)" ]]; then
               php bin/crop --image "$image" --quality 70 --delete-original
             fi
