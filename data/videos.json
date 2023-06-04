@@ -1,5 +1,11 @@
 [
     {
+        "video_id": "HDT6sOLeB0I",
+        "title": "Women's Boulder final || Prague 2023",
+        "published_at": "2023-06-04T18:57:00Z",
+        "duration": 124
+    },
+    {
         "video_id": "O88jFbeoZWM",
         "title": "Women's Boulder semi-final || Prague 2023",
         "published_at": "2023-06-04T12:29:20Z",
@@ -16,12 +22,6 @@
         "title": "Men's Boulder semi-final || Prague 2023",
         "published_at": "2023-06-03T12:27:33Z",
         "duration": 147
-    },
-    {
-        "video_id": "HDT6sOLeB0I",
-        "title": "Women's Boulder final || Prague 2023",
-        "published_at": "2023-05-29T16:58:53Z",
-        "duration": 0
     },
     {
         "video_id": "ml5UE6f9-bE",
