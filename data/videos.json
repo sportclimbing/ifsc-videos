@@ -1,5 +1,11 @@
 [
     {
+        "video_id": "eqDnjXqy7oU",
+        "title": "Men's Boulder semi-final || Innsbruck 2023",
+        "published_at": "2023-06-16T13:42:55Z",
+        "duration": 153
+    },
+    {
         "video_id": "GniLH6sXlXc",
         "title": "Women's Boulder final || Innsbruck 2023",
         "published_at": "2023-06-15T20:02:38Z",
@@ -21,12 +27,6 @@
         "video_id": "zt8OZx7qS8o",
         "title": "Men's Boulder final || Innsbruck 2023",
         "published_at": "2023-06-15T15:49:49Z",
-        "duration": 0
-    },
-    {
-        "video_id": "eqDnjXqy7oU",
-        "title": "Men's Boulder semi-final || Innsbruck 2023",
-        "published_at": "2023-06-15T15:47:56Z",
         "duration": 0
     },
     {
