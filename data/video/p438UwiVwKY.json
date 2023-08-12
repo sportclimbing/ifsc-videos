@@ -1,15 +1,15 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "H6Lzb-YXne8KYg4BxANFnxXSNWs",
+  "etag": "M37SeCQ85Gp4dy6MqWd5Pg_YYfQ",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "T5H2OeILSvFFRK9ToIX-yroKrTM",
+      "etag": "L9obboH9Gsh_l1S9O0A41xTXJGs",
       "id": "p438UwiVwKY",
       "contentDetails": {
-        "duration": "P0D",
+        "duration": "PT8M9S",
         "dimension": "2d",
-        "definition": "sd",
+        "definition": "hd",
         "caption": "false",
         "licensedContent": true,
         "contentRating": {},
