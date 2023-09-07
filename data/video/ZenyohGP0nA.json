@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "Mg4GCLLu0NdTGYutrFd5TF7yW0o",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "TwUcd9LXI7blzY2yQ7Dykyh5Lt0",
+      "id": "ZenyohGP0nA",
+      "contentDetails": {
+        "duration": "PT1M28S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
