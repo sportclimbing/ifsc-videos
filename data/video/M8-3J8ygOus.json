@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "HaVSmomZwaQuOeORGCToutBA9VU",
+  "etag": "VmaWq5FJ2QIZvP9YJWgAAFdmXjM",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "ThFePFkcO_PYlWpK-8PiH-3sOkM",
+      "etag": "_ckyQ6EwYY-ou_phlTQhpbUqMOA",
       "id": "M8-3J8ygOus",
       "contentDetails": {
         "duration": "P0D",
@@ -12,6 +12,20 @@
         "definition": "sd",
         "caption": "false",
         "licensedContent": true,
+        "regionRestriction": {
+          "blocked": [
+            "HK",
+            "ID",
+            "JP",
+            "KR",
+            "MO",
+            "MY",
+            "PH",
+            "SG",
+            "TH",
+            "VN"
+          ]
+        },
         "contentRating": {},
         "projection": "rectangular"
       }
