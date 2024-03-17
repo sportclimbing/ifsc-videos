@@ -83,3 +83,15 @@ jobs:
         uses: Actions-R-Us/actions-tagger@latest
         with:
           publish_latest_tag: true
+
+      - name: "Release"
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.PAT_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'sportclimbing',
+              repo: 'ifsc-calendar',
+              workflow_id: 'push-docker-image.yml',
+              ref: 'main'
+            })
