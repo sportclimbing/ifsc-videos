@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+require __DIR__ . '/functions.php';
+
+$currentVideos = get_current_videos();
+
+foreach ($currentVideos as &$video) {
+    $videoDetails = video_details($video->video_id);
+    $video->restricted_regions = $videoDetails->contentDetails?->regionRestriction->blocked ?? [];
+}
+
+sort_by_date($currentVideos);
+
+echo json_encode($currentVideos, flags: JSON_PRETTY_PRINT);

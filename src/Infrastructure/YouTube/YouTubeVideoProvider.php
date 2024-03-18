@@ -19,10 +19,11 @@ final readonly class YouTubeVideoProvider implements YouTubeVideoProviderInterfa
 
         foreach ($this->importVideosFromFile() as $video) {
             $videos[] = new YouTubeVideo(
-                $video->video_id,
-                $video->title,
-                new DateTimeImmutable($video->published_at),
-                $video->duration,
+                videoId: $video->video_id,
+                title: $video->title,
+                publishedAt: new DateTimeImmutable($video->published_at),
+                duration: $video->duration,
+                restrictedRegions: $video->restricted_regions,
             );
         }
 

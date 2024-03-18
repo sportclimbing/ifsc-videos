@@ -21,6 +21,7 @@ foreach (fetch_recent_youtube_videos() as $video) {
                 'title' => normalize_title($video),
                 'published_at' => $video->snippet->publishedAt,
                 'duration' => $durationInMinutes,
+                'restricted_regions' => $videoDetails->contentDetails?->regionRestriction?->blocked ?? [],
             ];
         }
     } else {
@@ -38,6 +39,7 @@ foreach (fetch_recent_youtube_videos() as $video) {
                 'title' => normalize_title($video),
                 'published_at' => $video->snippet->publishedAt,
                 'duration' => $durationInMinutes,
+                'restricted_regions' => $freshVideoDetails->contentDetails?->regionRestriction?->blocked ?? [],
             ];
         }
     }

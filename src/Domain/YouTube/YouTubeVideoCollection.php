@@ -27,6 +27,6 @@ final readonly class YouTubeVideoCollection
 
     private function seasonFilter(int $season): Closure
     {
-        return static fn (YouTubeVideo $youTubeVideo) => (int) $youTubeVideo->publishedAt->format('Y') === $season;
+        return static fn (YouTubeVideo $youTubeVideo): bool => (int) $youTubeVideo->publishedAt->format('Y') === $season;
     }
 }
