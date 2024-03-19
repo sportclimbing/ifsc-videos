@@ -9,5 +9,9 @@ namespace nicoSWD\IfscVideos\Domain\YouTube;
 
 interface YouTubeVideoProviderInterface
 {
+    /** @return YouTubeVideo[] */
     public function getAllVideos(): array;
+
+    /** @return string[] */
+    public function fetchRestrictedRegionsForVideo(string $videoId): array;
 }

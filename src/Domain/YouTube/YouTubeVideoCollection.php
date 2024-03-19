@@ -21,8 +21,14 @@ final readonly class YouTubeVideoCollection
     {
         return array_filter(
             $this->youTubeVideoProvider->getAllVideos(),
-            $this->seasonFilter($season)
+            $this->seasonFilter($season),
         );
+    }
+
+    /** @return string[] */
+    public function fetchRestrictedRegionsForVideo(string $videoId): array
+    {
+        return $this->youTubeVideoProvider->fetchRestrictedRegionsForVideo($videoId);
     }
 
     private function seasonFilter(int $season): Closure
