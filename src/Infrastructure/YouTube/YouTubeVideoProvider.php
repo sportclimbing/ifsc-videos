@@ -15,8 +15,7 @@ use Override;
 final readonly class YouTubeVideoProvider implements YouTubeVideoProviderInterface
 {
     /** @inheritdoc */
-    #[Override]
-    public function getAllVideos(): array
+    #[Override] public function getAllVideos(): array
     {
         $videos = [];
 
@@ -28,8 +27,7 @@ final readonly class YouTubeVideoProvider implements YouTubeVideoProviderInterfa
     }
 
     /** @inheritdoc */
-    #[Override]
-    public function fetchRestrictedRegionsForVideo(string $videoId): array
+    #[Override] public function fetchRestrictedRegionsForVideo(string $videoId): array
     {
         $videoDetails = $this->loadVideoDetails($videoId);
 
@@ -47,6 +45,7 @@ final readonly class YouTubeVideoProvider implements YouTubeVideoProviderInterfa
             title: $video->title,
             publishedAt: new DateTimeImmutable($video->published_at),
             duration: $video->duration,
+            scheduledStartTime: $video->scheduled_start_time ? new DateTimeImmutable($video->scheduled_start_time): null,
             restrictedRegions: $video->restricted_regions,
         );
     }

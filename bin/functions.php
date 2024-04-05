@@ -61,7 +61,7 @@ function build_video_details_params(string $videoId): string
     $params = [
         'key' => get_api_key(),
         'id' => $videoId,
-        'part' => 'contentDetails',
+        'part' => 'contentDetails,liveStreamingDetails',
     ];
 
     return http_build_query($params, arg_separator: '&');
@@ -254,6 +254,6 @@ function is_comp_video(int $durationInMinutes): bool
     return
         // programmed, but not streamed yet
         $durationInMinutes === 0 ||
-        // probably not an "athlete of the week video
+        // probably not an "athlete of the week" video
         $durationInMinutes >= 30;
 }

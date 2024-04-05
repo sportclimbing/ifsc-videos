@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "Fz-i6X-qE0DCtjnh_57ucyq92v4",
+  "etag": "V-WqQn0EPaBsN1g7SNzR1kIu2KY",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "DCs5U6AI0VFoagcgGNDX6OMqAsY",
+      "etag": "0SXoGBM0yfq55z-rgHbxQteEcMU",
       "id": "K9vcnOpBPDc",
       "contentDetails": {
         "duration": "P0D",
@@ -96,6 +96,9 @@
         },
         "contentRating": {},
         "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "scheduledStartTime": "2024-04-09T11:55:00Z"
       }
     }
   ],

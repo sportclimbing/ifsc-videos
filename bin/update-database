@@ -10,7 +10,7 @@ foreach (fetch_recent_youtube_videos() as $video) {
     $videoId = $video->id->videoId;
 
     if (!video_exists($currentVideos, $videoId)) {
-        $videoDetails = video_details($videoId);
+        $videoDetails = video_details($videoId, useCache: false);
         $durationInMinutes = duration_to_minutes($videoDetails);
 
         if (is_comp_video($durationInMinutes)) {
@@ -21,6 +21,7 @@ foreach (fetch_recent_youtube_videos() as $video) {
                 'title' => normalize_title($video),
                 'published_at' => $video->snippet->publishedAt,
                 'duration' => $durationInMinutes,
+                'scheduled_start_time' => $videoDetails?->liveStreamingDetails->scheduledStartTime ?? null,
                 'restricted_regions' => $videoDetails->contentDetails?->regionRestriction?->blocked ?? [],
             ];
         }
@@ -39,6 +40,7 @@ foreach (fetch_recent_youtube_videos() as $video) {
                 'title' => normalize_title($video),
                 'published_at' => $video->snippet->publishedAt,
                 'duration' => $durationInMinutes,
+                'scheduled_start_time' => $freshVideoDetails?->liveStreamingDetails->scheduledStartTime ?? null,
                 'restricted_regions' => $freshVideoDetails->contentDetails?->regionRestriction?->blocked ?? [],
             ];
         }
