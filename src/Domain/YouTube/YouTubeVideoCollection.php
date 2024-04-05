@@ -25,6 +25,11 @@ final readonly class YouTubeVideoCollection
         );
     }
 
+    public function getAllVideos(): array
+    {
+        return $this->youTubeVideoProvider->getAllVideos();
+    }
+
     /** @return string[] */
     public function fetchRestrictedRegionsForVideo(string $videoId): array
     {
