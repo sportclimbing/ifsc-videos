@@ -45,7 +45,7 @@ final readonly class YouTubeVideoProvider implements YouTubeVideoProviderInterfa
             title: $video->title,
             publishedAt: new DateTimeImmutable($video->published_at),
             duration: $video->duration,
-            scheduledStartTime: $video->scheduled_start_time ? new DateTimeImmutable($video->scheduled_start_time): null,
+            scheduledStartTime: isset($video->scheduled_start_time) ? new DateTimeImmutable($video->scheduled_start_time): null,
             restrictedRegions: $video->restricted_regions,
         );
     }
