@@ -39,7 +39,7 @@ foreach ($newVideos as $newVideo) {
                 $newVideo->title,
             );
         }
-        if ($oldVideo?->scheduled_start_time !== $newVideo->scheduled_start_time) {
+        if (@$oldVideo->scheduled_start_time !== $newVideo->scheduled_start_time) {
             $updated[] = sprintf(
                 '- *[%s](https://youtu.be/%s)* scheduled start time changed from %s to %s',
                 $oldVideo->title,
@@ -48,7 +48,7 @@ foreach ($newVideos as $newVideo) {
                 $newVideo->scheduled_start_time,
             );
         }
-        if ($oldVideo?->restricted_regions !== $newVideo->restricted_regions) {
+        if (@$oldVideo->restricted_regions !== $newVideo->restricted_regions) {
             $updated[] = sprintf(
                 '- *[%s](https://youtu.be/%s)* changed restricted regions from %s to %s',
                 $oldVideo->title,
