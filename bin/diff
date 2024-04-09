@@ -30,6 +30,33 @@ foreach ($newVideos as $newVideo) {
                 $newVideo->duration,
             );
         }
+        if ($oldVideo->title !== $newVideo->title) {
+            $updated[] = sprintf(
+                '- *[%s](https://youtu.be/%s)* changed its title from %s to %s',
+                $oldVideo->title,
+                $oldVideo->video_id,
+                $oldVideo->title,
+                $newVideo->title,
+            );
+        }
+        if ($oldVideo->scheduled_start_time !== $newVideo->scheduled_start_time) {
+            $updated[] = sprintf(
+                '- *[%s](https://youtu.be/%s)* scheduled start time changed from %s to %s',
+                $oldVideo->title,
+                $oldVideo->video_id,
+                $oldVideo->scheduled_start_time,
+                $newVideo->scheduled_start_time,
+            );
+        }
+        if ($oldVideo->restricted_regions !== $newVideo->restricted_regions) {
+            $updated[] = sprintf(
+                '- *[%s](https://youtu.be/%s)* changed restricted regions from %s to %s',
+                $oldVideo->title,
+                $oldVideo->video_id,
+                implode(', ', $oldVideo->restricted_regions),
+                implode(', ', $newVideo->restricted_regions),
+            );
+        }
     }
 }
 
