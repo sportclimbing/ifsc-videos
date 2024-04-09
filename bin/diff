@@ -8,57 +8,50 @@ $opts = getopt('', ['old-videos:', 'new-videos:']);
 $oldVideos = json_file($opts['old-videos']);
 $newVideos = json_file($opts['new-videos']);
 
-$added = [];
-$updated = [];
+$added = '';
+$updated = '';
+$fields = ['title', 'duration', 'published_at', 'scheduled_start_time', 'restricted_regions'];
 
 foreach ($newVideos as $newVideo) {
     $oldVideo = video_by_id($oldVideos, $newVideo->video_id);
 
     if (!$oldVideo) {
-        $added[] = sprintf(
-            '- [%s](https://youtu.be/%s)',
-            $newVideo->title,
-            $newVideo->video_id,
-        );
+        $added .= '### ' . $newVideo->title . PHP_EOL;
+        $added .= '![thumbnail](https://img.youtube.com/vi/' . $newVideo->video_id . '/mqdefault.jpg)' . PHP_EOL;
+        $added .= '|Field|Value|' . PHP_EOL;
+        $added .= '|-----|-----|' . PHP_EOL;
+
+        foreach ($fields as $field) {
+            $added .= '|' . $field . '|' . normalize_markdown_value($newVideo->{$field}) . '|' . PHP_EOL;
+        }
     } else {
-        if ($oldVideo->duration !== $newVideo->duration) {
-            $updated[] = sprintf(
-                '- *[%s](https://youtu.be/%s)* changed from %d to %d minutes',
-                $oldVideo->title,
-                $oldVideo->video_id,
-                $oldVideo->duration,
-                $newVideo->duration,
-            );
+        $changes = '';
+
+        foreach ($fields as $field) {
+            $oldValue = $oldVideo->{$field} ?? null;
+            $newValue = $newVideo->{$field} ?? null;
+
+            if ($oldValue !== $newValue) {
+                $changes .= '|' . $field . '|' . normalize_markdown_value($oldValue) . '|' . normalize_markdown_value($newValue) . '|' . PHP_EOL;
+            }
         }
-        if ($oldVideo->title !== $newVideo->title) {
-            $updated[] = sprintf(
-                '- *[%s](https://youtu.be/%s)* changed its title from %s to %s',
-                $oldVideo->title,
-                $oldVideo->video_id,
-                $oldVideo->title,
-                $newVideo->title,
-            );
-        }
-        if ($oldVideo->scheduled_start_time ?? null !== $newVideo->scheduled_start_time) {
-            $updated[] = sprintf(
-                '- *[%s](https://youtu.be/%s)* scheduled start time changed from %s to %s',
-                $oldVideo->title,
-                $oldVideo->video_id,
-                $oldVideo->scheduled_start_time,
-                $newVideo->scheduled_start_time,
-            );
-        }
-        if ($oldVideo->restricted_regions ?? null !== $newVideo->restricted_regions) {
-            $updated[] = sprintf(
-                '- *[%s](https://youtu.be/%s)* changed restricted regions from %s to %s',
-                $oldVideo->title,
-                $oldVideo->video_id,
-                implode(', ', $oldVideo->restricted_regions),
-                implode(', ', $newVideo->restricted_regions),
-            );
+
+        if ($changes) {
+            $updated .= '### ' . $oldVideo->title . PHP_EOL;
+            $updated .= '![thumbnail](https://img.youtube.com/vi/' . $oldVideo->video_id . '/mqdefault.jpg)' . PHP_EOL;
+            $updated .= '|Field|Old Value|New Value|' . PHP_EOL;
+            $updated .= '|-----|---------|---------|' . PHP_EOL;
+            $updated .= $changes . PHP_EOL . '<hr />' . PHP_EOL . PHP_EOL;
         }
     }
 }
 
-print_list('Added videos', $added);
-print_list('Updated videos', $updated);
+if ($added) {
+    echo '## Added Videos:', PHP_EOL;
+    echo $added, PHP_EOL;
+}
+
+if ($updated) {
+    echo '## Updated Videos:', PHP_EOL;
+    echo $updated;
+}

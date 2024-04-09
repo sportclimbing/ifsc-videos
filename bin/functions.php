@@ -197,26 +197,29 @@ function sort_by_date(array &$videos): void
     usort($videos, static fn (object $video1, object $video2): int => new DateTime($video2->published_at) <=> new DateTime($video1->published_at));
 }
 
-function print_list(string $title, array $items): void
-{
-    if (empty($items)) {
-        return;
-    }
-
-    echo "**{$title}:**", PHP_EOL;
-    echo implode(PHP_EOL, $items), PHP_EOL, PHP_EOL;
-}
-
 function download_video_cover(string $videoId): void
 {
     $saveAs = __DIR__ . "/../data/covers/original/{$videoId}.jpg";
 
     if (!is_file($saveAs)) {
-        copy(
+        @copy(
             hires_video_cover_url($videoId),
             $saveAs
         );
     }
+}
+
+function normalize_markdown_value(mixed $value): string
+{
+    if (is_null($value)) {
+        return 'null';
+    }
+
+    if (is_array($value)) {
+        return implode(', ', $value);
+    }
+
+    return str_replace('|', '\|', (string) $value);
 }
 
 function download_upscaled_video_cover(string $videoId): void
