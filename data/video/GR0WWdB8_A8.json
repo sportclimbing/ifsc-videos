@@ -1,0 +1,28 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "3o6K5tKtLJ_QQGQ0OA02zraG2TY",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "9QM8TyoZkr9VtpL6y14MdxOa6mI",
+      "id": "GR0WWdB8_A8",
+      "contentDetails": {
+        "duration": "PT46M8S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "scheduledStartTime": "2024-06-06T16:00:00Z",
+        "activeLiveChatId": "Cg0KC0dSMFdXZEI4X0E4KicKGFVDMk1HdWhJYU9QNllMcFV4MTA2a1RRdxILR1IwV1dkQjhfQTg"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
