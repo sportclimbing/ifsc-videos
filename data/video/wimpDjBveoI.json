@@ -1,0 +1,27 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "RqhpavXBOq1B8Ki_871gIWW4_NA",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "KcLwfgsYb3YU9Eev3vgNhFqwYZ0",
+      "id": "wimpDjBveoI",
+      "contentDetails": {
+        "duration": "P0D",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "scheduledStartTime": "2024-08-25T00:55:00Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
