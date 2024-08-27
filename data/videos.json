@@ -1,5 +1,15 @@
 [
     {
+        "video_id": "Q5KdJtviKss",
+        "title": "Boulder semi-finals U18 | Guiyang 2024",
+        "published_at": "2024-08-27T03:40:05Z",
+        "duration": 151,
+        "scheduled_start_time": "2024-08-27T00:55:00Z",
+        "restricted_regions": [
+            "RU"
+        ]
+    },
+    {
         "video_id": "xO3zQ5l2xzk",
         "title": "Men's Boulder & Lead final | Villars 2024",
         "published_at": "2024-08-26T09:42:12Z",
@@ -429,14 +439,6 @@
         "published_at": "2024-08-22T08:36:27Z",
         "duration": 0,
         "scheduled_start_time": "2024-08-27T10:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "Q5KdJtviKss",
-        "title": "Boulder semi-finals U18 | Guiyang 2024",
-        "published_at": "2024-08-22T08:33:32Z",
-        "duration": 0,
-        "scheduled_start_time": "2024-08-27T00:55:00Z",
         "restricted_regions": []
     },
     {
