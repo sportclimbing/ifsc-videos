@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "mq8CETsX5kQ",
+        "title": "Speed finals U18 | Guiyang 2024",
+        "published_at": "2024-08-28T13:50:55Z",
+        "duration": 82,
+        "scheduled_start_time": "2024-08-28T11:55:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "H6TXtxe26-Q",
         "title": "Boulder finals U18 | Guiyang 2024",
         "published_at": "2024-08-27T19:39:23Z",
@@ -431,14 +439,6 @@
         "published_at": "2024-08-22T08:40:07Z",
         "duration": 0,
         "scheduled_start_time": "2024-08-29T00:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "mq8CETsX5kQ",
-        "title": "Speed finals U18 | Guiyang 2024",
-        "published_at": "2024-08-22T08:38:47Z",
-        "duration": 0,
-        "scheduled_start_time": "2024-08-28T11:55:00Z",
         "restricted_regions": []
     },
     {
