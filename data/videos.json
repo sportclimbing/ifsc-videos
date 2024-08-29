@@ -226,6 +226,16 @@
         ]
     },
     {
+        "video_id": "7D66JvYC1Cw",
+        "title": "Lead semi-finals | Villars 2024",
+        "published_at": "2024-08-26T08:55:03Z",
+        "duration": 0,
+        "scheduled_start_time": "2024-08-31T09:55:00Z",
+        "restricted_regions": [
+            "CH"
+        ]
+    },
+    {
         "video_id": "wGHYxLJ0zz8",
         "title": "Boulder finals | Villars 2024",
         "published_at": "2024-08-26T08:35:55Z",
@@ -287,6 +297,16 @@
             "UA",
             "UZ",
             "VA"
+        ]
+    },
+    {
+        "video_id": "60Jh-jvbjD4",
+        "title": "Boulder semi-finals | Villars 2024",
+        "published_at": "2024-08-26T08:29:59Z",
+        "duration": 0,
+        "scheduled_start_time": "2024-08-30T09:55:00Z",
+        "restricted_regions": [
+            "CH"
         ]
     },
     {
