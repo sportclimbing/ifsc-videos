@@ -1,5 +1,23 @@
 [
     {
+        "video_id": "zmromDRi4mw",
+        "title": "Boulder finals U20 | Guiyang 2024",
+        "published_at": "2024-08-29T13:22:54Z",
+        "duration": 132,
+        "scheduled_start_time": "2024-08-29T10:55:00Z",
+        "restricted_regions": [
+            "RU"
+        ]
+    },
+    {
+        "video_id": "x4-6Q91_Yvk",
+        "title": "Speed qualifications & finals U16 | Guiyang 2024",
+        "published_at": "2024-08-29T09:57:40Z",
+        "duration": 186,
+        "scheduled_start_time": "2024-08-29T06:40:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "jnvDhds6ITc",
         "title": "Boulder semi-finals U20 | Guiyang 2024",
         "published_at": "2024-08-29T03:44:06Z",
@@ -443,22 +461,6 @@
         "published_at": "2024-08-22T09:16:20Z",
         "duration": 0,
         "scheduled_start_time": "2024-08-30T10:10:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "zmromDRi4mw",
-        "title": "Boulder finals U20 | Guiyang 2024",
-        "published_at": "2024-08-22T09:12:30Z",
-        "duration": 0,
-        "scheduled_start_time": "2024-08-29T10:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "x4-6Q91_Yvk",
-        "title": "Speed qualifications & finals U16 | Guiyang 2024",
-        "published_at": "2024-08-22T08:42:04Z",
-        "duration": 0,
-        "scheduled_start_time": "2024-08-29T06:40:00Z",
         "restricted_regions": []
     },
     {
