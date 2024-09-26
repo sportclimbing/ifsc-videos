@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "f-J_mY0WrBH3CNz9Tq1V6K6TYqo",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "XTjqgQqmaRRVoogh8p_v-QTHaSg",
+      "id": "zwoan-fCyLo",
+      "contentDetails": {
+        "duration": "PT2M49S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
