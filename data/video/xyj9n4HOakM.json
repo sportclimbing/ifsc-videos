@@ -1,19 +1,22 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "RtRNujW6A5eVuZHmmw9pDsrJOfI",
+  "etag": "t9b3uPxKkRexzrLMmT_0Hhshbow",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "nBEw15QSh_SFbVY55CGxVZIAWC4",
-      "id": "3NBH9Gd0--M",
+      "etag": "Wtegb_oUocEnXPSzb7JMXUDp8q4",
+      "id": "xyj9n4HOakM",
       "contentDetails": {
-        "duration": "PT13M40S",
+        "duration": "P0D",
         "dimension": "2d",
-        "definition": "hd",
+        "definition": "sd",
         "caption": "false",
-        "licensedContent": false,
+        "licensedContent": true,
         "contentRating": {},
         "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "scheduledStartTime": "2024-11-13T16:25:00Z"
       }
     }
   ],
