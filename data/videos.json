@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "Ej9PdCZLn0k",
+        "title": "Men's Boulder final | NEOM 2024",
+        "published_at": "2024-11-11T18:39:56Z",
+        "duration": 119,
+        "scheduled_start_time": "2024-11-11T15:55:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "Aw0qRcMwLUo",
         "title": "Men's Boulder qualification | NEOM 2024",
         "published_at": "2024-11-11T10:02:10Z",
@@ -40,14 +48,6 @@
         "published_at": "2024-11-04T15:17:59Z",
         "duration": 0,
         "scheduled_start_time": "2024-11-12T15:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "Ej9PdCZLn0k",
-        "title": "Men's Boulder final | NEOM 2024",
-        "published_at": "2024-11-04T15:06:10Z",
-        "duration": 0,
-        "scheduled_start_time": "2024-11-11T15:55:00Z",
         "restricted_regions": []
     },
     {
