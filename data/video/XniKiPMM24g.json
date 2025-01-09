@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "DLH56Q3PXK-GzssxVjnFSsAdijw",
+  "etag": "2HXYnOjY2g6NgcUF1cd6qQ4ZIhA",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "zjXpiWNIIzchPPiNQE11ubedOuQ",
+      "etag": "QQTv3KEWwmulgUDyRXB6u167GIY",
       "id": "XniKiPMM24g",
       "contentDetails": {
         "duration": "PT3M32S",
