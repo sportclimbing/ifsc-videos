@@ -16206,6 +16206,14 @@
         "restricted_regions": []
     },
     {
+        "video_id": "b7bCViCzkp0",
+        "title": "Upcoming Event Trailer - IFSC World Cup Edinburgh 2017",
+        "published_at": "2017-09-17T10:53:14Z",
+        "duration": 0,
+        "scheduled_start_time": null,
+        "restricted_regions": []
+    },
+    {
         "video_id": "-JPorcEVano",
         "title": "IFSC Youth World Championships Innsbruck 2017 - Youth B Bouldering Finals Highlights",
         "published_at": "2017-09-03T20:26:30Z",
@@ -16651,6 +16659,38 @@
         "title": "Adam Ondra IWGA Athlete of the Year 2014",
         "published_at": "2015-08-20T12:32:25Z",
         "duration": 2,
+        "restricted_regions": []
+    },
+    {
+        "video_id": "4iybSJAwulc",
+        "title": "IFSC Climbing World Cup Brian\u00e7on 2015 - Lead - Finals - Male\/Female",
+        "published_at": "2015-07-18T21:31:05Z",
+        "duration": 191,
+        "scheduled_start_time": "2015-07-18T17:50:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "DBuvqmuagR4",
+        "title": "IFSC Climbing World Cup Chongqing 2015 - Bouldering - Finals - Male\/Female",
+        "published_at": "2015-06-25T07:27:24Z",
+        "duration": 181,
+        "scheduled_start_time": null,
+        "restricted_regions": []
+    },
+    {
+        "video_id": "QA4gd-MwpQc",
+        "title": "IFSC Climbing World Cup Xining 2012 - Lead - Replay Finals",
+        "published_at": "2012-10-14T07:30:11Z",
+        "duration": 156,
+        "scheduled_start_time": null,
+        "restricted_regions": []
+    },
+    {
+        "video_id": "MjazB1T5bFE",
+        "title": "Rockmaster Arco 2012 - Lead Duel - Replay",
+        "published_at": "2012-09-13T07:09:48Z",
+        "duration": 66,
+        "scheduled_start_time": null,
         "restricted_regions": []
     }
 ]
