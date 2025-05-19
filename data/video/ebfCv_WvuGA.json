@@ -1,0 +1,90 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "VWjBhgEzp7y5V1bjKNjyqVPEFn4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "MarNxS8GOVZjuMz2ZFIfn_el4Q8",
+      "id": "ebfCv_WvuGA",
+      "contentDetails": {
+        "duration": "PT1H54M41S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "regionRestriction": {
+          "blocked": [
+            "AD",
+            "AL",
+            "AM",
+            "AT",
+            "AZ",
+            "BA",
+            "BE",
+            "BG",
+            "BR",
+            "BY",
+            "CH",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GE",
+            "GR",
+            "HR",
+            "HU",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "KG",
+            "KZ",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MD",
+            "ME",
+            "MK",
+            "MT",
+            "MX",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "RS",
+            "RU",
+            "SE",
+            "SI",
+            "SK",
+            "SM",
+            "TJ",
+            "TM",
+            "TR",
+            "UA",
+            "UZ",
+            "VA"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2025-05-18T20:27:31Z",
+        "actualEndTime": "2025-05-18T22:21:57Z",
+        "scheduledStartTime": "2025-05-18T20:25:00Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
