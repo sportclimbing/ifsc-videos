@@ -1,21 +1,23 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "VYrbN18lrUJSE4AnfOmHAIgsOBM",
+  "etag": "jXHIMoLngHdFuHMJnXwLis20d_A",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "sM4SRKlAZOKFSJ-KCKPFTu7lyIU",
+      "etag": "WkA-p81gT2-1uhjzz7_WzBOExno",
       "id": "M3uJU_7qmr0",
       "contentDetails": {
-        "duration": "P0D",
+        "duration": "PT4H20M36S",
         "dimension": "2d",
-        "definition": "sd",
+        "definition": "hd",
         "caption": "false",
         "licensedContent": true,
         "contentRating": {},
         "projection": "rectangular"
       },
       "liveStreamingDetails": {
+        "actualStartTime": "2025-05-21T17:58:06Z",
+        "actualEndTime": "2025-05-21T22:18:28Z",
         "scheduledStartTime": "2025-05-21T17:55:00Z"
       }
     }
