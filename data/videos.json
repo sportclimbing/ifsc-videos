@@ -1,36 +1,9 @@
 [
     {
-        "video_id": "uQzo3c95abY",
-        "title": "Speed qualifications | Denver 2025",
-        "published_at": "2025-05-31T23:48:51Z",
-        "duration": 112,
-        "scheduled_start_time": "2025-05-31T21:55:00Z",
-        "restricted_regions": [
-            "BY",
-            "RU"
-        ]
-    },
-    {
-        "video_id": "rVQp7KLi2_o",
-        "title": "The first race for Sam Watson \ud83c\uddfa\ud83c\uddf8 in front of a home crowd since his new WR #shorts",
-        "published_at": "2025-05-31T23:12:43Z",
-        "duration": 0,
-        "scheduled_start_time": null,
-        "restricted_regions": []
-    },
-    {
-        "video_id": "-wGSlYJZjVI",
-        "title": "The first men's race from IFSC World Cup Denver \ud83c\uddfa\ud83c\uddf8 #shorts",
-        "published_at": "2025-05-31T23:08:55Z",
-        "duration": 0,
-        "scheduled_start_time": null,
-        "restricted_regions": []
-    },
-    {
         "video_id": "RGizslC8ErM",
         "title": "Speed finals | Denver 2025",
-        "published_at": "2025-05-31T14:50:18Z",
-        "duration": 0,
+        "published_at": "2025-06-01T23:26:59Z",
+        "duration": 87,
         "scheduled_start_time": "2025-06-01T21:55:00Z",
         "restricted_regions": [
             "AD",
@@ -91,6 +64,33 @@
             "UZ",
             "VA"
         ]
+    },
+    {
+        "video_id": "uQzo3c95abY",
+        "title": "Speed qualifications | Denver 2025",
+        "published_at": "2025-05-31T23:48:51Z",
+        "duration": 112,
+        "scheduled_start_time": "2025-05-31T21:55:00Z",
+        "restricted_regions": [
+            "BY",
+            "RU"
+        ]
+    },
+    {
+        "video_id": "rVQp7KLi2_o",
+        "title": "The first race for Sam Watson \ud83c\uddfa\ud83c\uddf8 in front of a home crowd since his new WR #shorts",
+        "published_at": "2025-05-31T23:12:43Z",
+        "duration": 0,
+        "scheduled_start_time": null,
+        "restricted_regions": []
+    },
+    {
+        "video_id": "-wGSlYJZjVI",
+        "title": "The first men's race from IFSC World Cup Denver \ud83c\uddfa\ud83c\uddf8 #shorts",
+        "published_at": "2025-05-31T23:08:55Z",
+        "duration": 0,
+        "scheduled_start_time": null,
+        "restricted_regions": []
     },
     {
         "video_id": "FfEPPrRuCYE",
@@ -18119,6 +18119,14 @@
         "published_at": "2015-06-25T07:27:24Z",
         "duration": 181,
         "scheduled_start_time": null,
+        "restricted_regions": []
+    },
+    {
+        "video_id": "-JIJmBFJaQ4",
+        "title": "IFSC Climbing World Cup Innsbruck 2013 - Bouldering - Replay Semi-Finals",
+        "published_at": "2013-05-18T15:20:50Z",
+        "duration": 144,
+        "scheduled_start_time": "2013-05-18T10:30:00Z",
         "restricted_regions": []
     },
     {
