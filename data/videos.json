@@ -18138,6 +18138,51 @@
         "restricted_regions": []
     },
     {
+        "video_id": "CUeXr2Q0hNY",
+        "title": "IFSC Climbing World Cup Kranj 2013 - Lead - Finals - Replay",
+        "published_at": "2013-11-17T19:50:52Z",
+        "duration": 199,
+        "scheduled_start_time": "2013-11-17T16:00:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "KGw8zMcO60M",
+        "title": "IFSC Climbing World Cup Kranj 2013 - Lead - Women's Qualifications - Replay",
+        "published_at": "2013-11-16T16:27:57Z",
+        "duration": 197,
+        "scheduled_start_time": "2013-11-16T13:00:00Z",
+        "restricted_regions": [
+            "BY",
+            "RU"
+        ]
+    },
+    {
+        "video_id": "4D9IAU2EZII",
+        "title": "IFSC Climbing World Cup- Mokpo 2013- Lead - Qualifications - Replay",
+        "published_at": "2013-10-11T05:51:51Z",
+        "duration": 208,
+        "scheduled_start_time": "2013-10-11T01:00:00Z",
+        "restricted_regions": [
+            "RU"
+        ]
+    },
+    {
+        "video_id": "A13Z6G2l3ZM",
+        "title": "Rock Master Festival 2013 - Lead Finals - Replay",
+        "published_at": "2013-09-07T22:34:25Z",
+        "duration": 167,
+        "scheduled_start_time": "2013-09-07T18:30:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "eKKM32lxoGI",
+        "title": "IFSC Climbing World Cup Imst 2013 - Lead - Finals MEN & WOMEN - Replay",
+        "published_at": "2013-08-10T21:32:00Z",
+        "duration": 190,
+        "scheduled_start_time": "2013-08-10T16:55:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "-JIJmBFJaQ4",
         "title": "IFSC Climbing World Cup Innsbruck 2013 - Bouldering - Replay Semi-Finals",
         "published_at": "2013-05-18T15:20:50Z",
