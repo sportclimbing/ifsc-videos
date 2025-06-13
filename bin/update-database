@@ -8,17 +8,18 @@ $missingVideos = [];
 
 foreach (fetch_recent_youtube_videos() as $video) {
     $videoId = $video->id->videoId;
+    $title = normalize_title($video);
 
     if (!video_exists($currentVideos, $videoId)) {
         $videoDetails = video_details($videoId, useCache: false);
         $durationInMinutes = duration_to_minutes($videoDetails);
 
-        if (is_comp_video($durationInMinutes)) {
+        if (is_comp_video($durationInMinutes) && !is_short($title)) {
             download_upscaled_video_cover($videoId);
 
             $missingVideos[] = (object) [
                 'video_id' => $videoId,
-                'title' => normalize_title($video),
+                'title' => $title,
                 'published_at' => $video->snippet->publishedAt,
                 'duration' => $durationInMinutes,
                 'scheduled_start_time' => $videoDetails?->liveStreamingDetails->scheduledStartTime ?? null,
@@ -37,7 +38,7 @@ foreach (fetch_recent_youtube_videos() as $video) {
 
             $missingVideos[] = (object) [
                 'video_id' => $videoId,
-                'title' => normalize_title($video),
+                'title' => $title,
                 'published_at' => $video->snippet->publishedAt,
                 'duration' => $durationInMinutes,
                 'scheduled_start_time' => $freshVideoDetails?->liveStreamingDetails->scheduledStartTime ?? null,

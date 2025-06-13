@@ -14,6 +14,11 @@ function normalize_title(object $video): string
     return html_entity_decode($video->snippet->title, encoding: 'utf-8');
 }
 
+function is_short(string $title): bool
+{
+    return str_contains($title, '#short');
+}
+
 function remove_video_with_id(array $currentVideos, string $videoId): array
 {
     return array_filter($currentVideos, static fn (object $video): bool => $video->video_id !== $videoId);
