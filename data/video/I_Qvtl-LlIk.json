@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "ifua_DU7FXdackk9tsb8rE5CvRw",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "VEGMI_G76nOruP7vrdYYAgp6nZk",
+      "id": "I_Qvtl-LlIk",
+      "contentDetails": {
+        "duration": "PT12M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

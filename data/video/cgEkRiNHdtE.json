@@ -1,15 +1,15 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "n5y1CPzm-9s5VWKAgHItEOBxblU",
+  "etag": "kmEkirgpeDuFGGLf2MLdXM8L8CY",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "379-ZpTGvMPzFakvNVDyvC5W60U",
+      "etag": "uo9Ymgzfow0ZpOzliRVQzSwXkg4",
       "id": "cgEkRiNHdtE",
       "contentDetails": {
-        "duration": "P0D",
+        "duration": "PT2H46M35S",
         "dimension": "2d",
-        "definition": "sd",
+        "definition": "hd",
         "caption": "false",
         "licensedContent": true,
         "regionRestriction": {
@@ -75,6 +75,8 @@
         "projection": "rectangular"
       },
       "liveStreamingDetails": {
+        "actualStartTime": "2025-06-15T07:54:26Z",
+        "actualEndTime": "2025-06-15T10:40:46Z",
         "scheduledStartTime": "2025-06-15T07:55:00Z"
       }
     }
