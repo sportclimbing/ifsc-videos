@@ -1,13 +1,13 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "KoAWq5OICys7thYHxVkTV-5KGLc",
+  "etag": "zTvzgTdo33P4yoSyXbv5ILnaoz8",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "s907SUqwqRFVs_HpqYPZvTbH4Ko",
-      "id": "f7iIOpWJq6s",
+      "etag": "sXRSfFLS0Y9YoI5YsLBb_fOK5F0",
+      "id": "t2au8JhZgoE",
       "contentDetails": {
-        "duration": "PT50S",
+        "duration": "PT37S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "false",
