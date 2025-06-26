@@ -16,7 +16,7 @@ function normalize_title(object $video): string
 
 function is_short(string $title): bool
 {
-    return str_contains($title, '#short');
+    return 1 === preg_match('~#shorts?~i', $title);
 }
 
 function remove_video_with_id(array $currentVideos, string $videoId): array
