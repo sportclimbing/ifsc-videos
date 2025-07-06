@@ -1,17 +1,9 @@
 [
     {
-        "video_id": "rG_t-q2yoWk",
-        "title": "Speed qualifications | Krakow 2025",
-        "published_at": "2025-07-05T14:02:58Z",
-        "duration": 156,
-        "scheduled_start_time": "2025-07-05T10:55:00Z",
-        "restricted_regions": []
-    },
-    {
         "video_id": "VP3-dZ-sT9k",
         "title": "Speed finals | Krakow 2025",
-        "published_at": "2025-07-04T08:27:43Z",
-        "duration": 0,
+        "published_at": "2025-07-06T12:26:44Z",
+        "duration": 107,
         "scheduled_start_time": "2025-07-06T09:55:00Z",
         "restricted_regions": [
             "AD",
@@ -72,6 +64,14 @@
             "UZ",
             "VA"
         ]
+    },
+    {
+        "video_id": "rG_t-q2yoWk",
+        "title": "Speed qualifications | Krakow 2025",
+        "published_at": "2025-07-05T14:02:58Z",
+        "duration": 156,
+        "scheduled_start_time": "2025-07-05T10:55:00Z",
+        "restricted_regions": []
     },
     {
         "video_id": "k9RfMePj0fA",
