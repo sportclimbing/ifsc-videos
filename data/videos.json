@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "x30iwMNDmX0",
+        "title": "Speed qualifications | Chamonix 2025",
+        "published_at": "2025-07-11T19:32:38Z",
+        "duration": 151,
+        "scheduled_start_time": "2025-07-11T16:55:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "fJnnnymFx9Y",
         "title": "Lead finals | Chamonix 2025",
         "published_at": "2025-07-09T07:10:29Z",
@@ -194,14 +202,6 @@
             "UZ",
             "VA"
         ]
-    },
-    {
-        "video_id": "x30iwMNDmX0",
-        "title": "Speed qualifications | Chamonix 2025",
-        "published_at": "2025-07-09T06:27:03Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-07-11T16:55:00Z",
-        "restricted_regions": []
     },
     {
         "video_id": "VP3-dZ-sT9k",
