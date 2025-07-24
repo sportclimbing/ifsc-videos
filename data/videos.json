@@ -1,5 +1,85 @@
 [
     {
+        "video_id": "8tOzblKRCxc",
+        "title": "U19 Speed finals | Helsinki 2025",
+        "published_at": "2025-07-24T13:20:06Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-08-03T18:25:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "nrg792ufLlQ",
+        "title": "U17 Speed finals | Helsinki 2025",
+        "published_at": "2025-07-24T13:18:08Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-08-03T11:25:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "ZIoVzvYe2xs",
+        "title": "U17 Lead finals | Helsinki 2025",
+        "published_at": "2025-07-24T13:16:13Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-08-02T18:25:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "7LFaRJFYoJs",
+        "title": "U19 Lead finals | Helsinki 2025",
+        "published_at": "2025-07-24T13:14:19Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-08-02T16:55:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "sbvz6Ff0Uok",
+        "title": "U17 Lead semi-finals | Helsinki 2025",
+        "published_at": "2025-07-24T13:10:13Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-08-02T08:55:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "P3oVHc8uj4k",
+        "title": "U19 Lead semi-finals | Helsinki 2025",
+        "published_at": "2025-07-24T13:01:49Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-08-01T17:55:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "BSiltlmRYfI",
+        "title": "U17 Boulder finals | Helsinki 2025",
+        "published_at": "2025-07-24T12:56:34Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-07-30T17:55:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "hCehkNnVeOc",
+        "title": "U19 Boulder finals | Helsinki 2025",
+        "published_at": "2025-07-24T12:54:14Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-07-30T14:55:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "jveeXy6LHYw",
+        "title": "U17 Boulder semi-finals | Helsinki 2025",
+        "published_at": "2025-07-24T12:40:13Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-07-30T06:55:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "e39xMEvygX4",
+        "title": "U19 Boulder semi-finals | Helsinki 2025",
+        "published_at": "2025-07-24T12:31:23Z",
+        "duration": 0,
+        "scheduled_start_time": "2025-07-29T17:25:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "rdHynJ0yUA8",
         "title": "Lead finals | Comunidad de Madrid 2025",
         "published_at": "2025-07-19T20:57:32Z",
