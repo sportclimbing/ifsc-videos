@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "e39xMEvygX4",
+        "title": "U19 Boulder semi-finals | Helsinki 2025",
+        "published_at": "2025-07-29T19:23:06Z",
+        "duration": 167,
+        "scheduled_start_time": "2025-07-29T16:25:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "8tOzblKRCxc",
         "title": "U19 Speed finals | Helsinki 2025",
         "published_at": "2025-07-24T13:20:06Z",
@@ -69,14 +77,6 @@
         "published_at": "2025-07-24T12:40:13Z",
         "duration": 0,
         "scheduled_start_time": "2025-07-30T05:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "e39xMEvygX4",
-        "title": "U19 Boulder semi-finals | Helsinki 2025",
-        "published_at": "2025-07-24T12:31:23Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-07-29T16:25:00Z",
         "restricted_regions": []
     },
     {
