@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "PLcA1f_chrq3Y72S2yXNbToZumo",
+  "etag": "ZlD6occLk4spsBWcDFpK8YYztLY",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "GEFBf8bAhJgaY3nESqGGOsaq2gM",
+      "etag": "WkiBKSnRG0J7s2uL0oWTDR6zTPI",
       "id": "BSiltlmRYfI",
       "contentDetails": {
         "duration": "P0D",
@@ -16,7 +16,9 @@
         "projection": "rectangular"
       },
       "liveStreamingDetails": {
-        "scheduledStartTime": "2025-07-30T16:55:00Z"
+        "actualStartTime": "2025-07-30T17:27:46Z",
+        "scheduledStartTime": "2025-07-30T17:25:00Z",
+        "concurrentViewers": "2611"
       }
     }
   ],
