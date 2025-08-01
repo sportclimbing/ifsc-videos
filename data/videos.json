@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "P3oVHc8uj4k",
+        "title": "U19 Lead semi-finals | Helsinki 2025",
+        "published_at": "2025-08-01T19:13:31Z",
+        "duration": 127,
+        "scheduled_start_time": "2025-08-01T16:55:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "BSiltlmRYfI",
         "title": "U17 Boulder finals | Helsinki 2025",
         "published_at": "2025-07-30T19:50:37Z",
@@ -69,14 +77,6 @@
         "published_at": "2025-07-24T13:10:13Z",
         "duration": 0,
         "scheduled_start_time": "2025-08-02T07:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "P3oVHc8uj4k",
-        "title": "U19 Lead semi-finals | Helsinki 2025",
-        "published_at": "2025-07-24T13:01:49Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-08-01T16:55:00Z",
         "restricted_regions": []
     },
     {
