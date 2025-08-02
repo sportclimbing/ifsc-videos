@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "ZIoVzvYe2xs",
+        "title": "U17 Lead finals | Helsinki 2025",
+        "published_at": "2025-08-02T19:54:53Z",
+        "duration": 142,
+        "scheduled_start_time": "2025-08-02T17:25:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "7LFaRJFYoJs",
         "title": "U19 Lead finals | Helsinki 2025",
         "published_at": "2025-08-02T17:10:56Z",
@@ -69,14 +77,6 @@
         "published_at": "2025-07-24T13:18:08Z",
         "duration": 0,
         "scheduled_start_time": "2025-08-03T10:25:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "ZIoVzvYe2xs",
-        "title": "U17 Lead finals | Helsinki 2025",
-        "published_at": "2025-07-24T13:16:13Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-08-02T17:25:00Z",
         "restricted_regions": []
     },
     {
