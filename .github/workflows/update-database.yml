@@ -96,16 +96,3 @@ jobs:
               workflow_id: 'push-docker-image.yml',
               ref: 'main'
             })
-
-      - name: "Update calendar"
-        if: steps.check_diff.outputs.has_changes == 'true'
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.PAT_TOKEN }}
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: 'sportclimbing',
-              repo: 'ifsc-calendar',
-              workflow_id: 'update-calendar.yml',
-              ref: 'main'
-            })
