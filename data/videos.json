@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "WJZ0eF19WZA",
+        "title": "Women's Speed qualification | Seoul 2025",
+        "published_at": "2025-09-24T02:00:44Z",
+        "duration": 50,
+        "scheduled_start_time": "2025-09-24T01:10:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "K5zPa1YBZ9Y",
         "title": "Men's Boulder final | Seoul 2025",
         "published_at": "2025-09-21T08:18:26Z",
@@ -527,14 +535,6 @@
         "published_at": "2025-09-21T07:36:10Z",
         "duration": 0,
         "scheduled_start_time": "2025-09-25T01:15:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "WJZ0eF19WZA",
-        "title": "Women's Speed qualification | Seoul 2025",
-        "published_at": "2025-09-21T07:29:59Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-09-24T01:10:00Z",
         "restricted_regions": []
     },
     {
