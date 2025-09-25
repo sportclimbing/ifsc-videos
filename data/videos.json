@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "1iCH61vjegg",
+        "title": "Para Climbing finals | Seoul 2025",
+        "published_at": "2025-09-25T07:07:53Z",
+        "duration": 152,
+        "scheduled_start_time": "2025-09-25T04:25:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "76vU8XdgqH8",
         "title": "Men's Speed qualification | Seoul 2025",
         "published_at": "2025-09-25T02:34:04Z",
@@ -544,14 +552,6 @@
             "UZ",
             "VA"
         ]
-    },
-    {
-        "video_id": "1iCH61vjegg",
-        "title": "Para Climbing finals | Seoul 2025",
-        "published_at": "2025-09-21T07:21:52Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-09-25T04:25:00Z",
-        "restricted_regions": []
     },
     {
         "video_id": "ajzHtP3eza0",
