@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "VM-GUBvnIKx-r2mPo-ndhXOVaUI",
+  "etag": "hKWETZPL9Q6Sv1gexKjchVk2Nko",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "lKGMqIYgdG-Nn-OBOR_Ca5Lmiyc",
+      "etag": "Q0odHf0g-lQSJJfYbn6H4TZJHJA",
       "id": "wxiMreMe-Ds",
       "contentDetails": {
         "duration": "P0D",
@@ -43,6 +43,7 @@
             "IS",
             "IT",
             "KG",
+            "KR",
             "KZ",
             "LI",
             "LT",
@@ -68,6 +69,7 @@
             "TJ",
             "TM",
             "TR",
+            "TW",
             "UA",
             "UZ",
             "VA"
