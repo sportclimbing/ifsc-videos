@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "-gMNXWxo4BE",
+        "title": "Para Climbing finals | Laval 2025",
+        "published_at": "2025-10-25T20:20:45Z",
+        "duration": 141,
+        "scheduled_start_time": "2025-10-25T17:55:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "oBxtF11EuHY",
         "title": "Boulder finals | Nations Grand Finale Fukuoka 2025",
         "published_at": "2025-10-25T07:38:29Z",
@@ -200,14 +208,6 @@
         "published_at": "2025-10-23T13:32:57Z",
         "duration": 0,
         "scheduled_start_time": "2025-10-26T13:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "-gMNXWxo4BE",
-        "title": "Para Climbing finals | Laval 2025",
-        "published_at": "2025-10-23T12:03:24Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-10-25T17:55:00Z",
         "restricted_regions": []
     },
     {
