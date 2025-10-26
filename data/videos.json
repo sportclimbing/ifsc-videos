@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "oVQVDXGHMnE",
+        "title": "Para Climbing finals | Fukuoka 2025",
+        "published_at": "2025-10-26T02:58:34Z",
+        "duration": 121,
+        "scheduled_start_time": "2025-10-25T23:55:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "-gMNXWxo4BE",
         "title": "Para Climbing finals | Laval 2025",
         "published_at": "2025-10-25T20:20:45Z",
@@ -208,14 +216,6 @@
         "published_at": "2025-10-23T13:32:57Z",
         "duration": 0,
         "scheduled_start_time": "2025-10-26T13:55:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "oVQVDXGHMnE",
-        "title": "Para Climbing finals | Fukuoka 2025",
-        "published_at": "2025-10-23T11:36:57Z",
-        "duration": 0,
-        "scheduled_start_time": "2025-10-25T23:55:00Z",
         "restricted_regions": []
     },
     {
