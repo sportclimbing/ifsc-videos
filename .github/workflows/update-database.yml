@@ -59,7 +59,7 @@ jobs:
         if: steps.check_diff.outputs.has_changes == 'true'
         with:
           author_name: Nico Oelgart
-          author_email: nico@oelgart.com
+          author_email: nico@ifsc.stream
           message: 'Add new videos'
 
       - name: "Bump version and push tag"
