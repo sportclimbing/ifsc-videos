@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "cgUMxCnZ-6I",
+        "title": "Speed qualifications | Wujiang 2026",
+        "published_at": "2026-05-10T07:01:20Z",
+        "duration": 117,
+        "scheduled_start_time": "2026-05-10T05:00:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "g8pk_iHtRiM",
         "title": "Lead finals | Wujiang 2026",
         "published_at": "2026-05-09T13:49:40Z",
@@ -197,14 +205,6 @@
             "UZ",
             "VA"
         ]
-    },
-    {
-        "video_id": "cgUMxCnZ-6I",
-        "title": "Speed qualifications | Wujiang 2026",
-        "published_at": "2026-05-05T00:29:36Z",
-        "duration": 0,
-        "scheduled_start_time": "2026-05-10T05:00:00Z",
-        "restricted_regions": []
     },
     {
         "video_id": "8E_26CvTdm4",
