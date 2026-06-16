@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "g5dYOqcJAxI",
+        "title": "Para Climbing finals | Innsbruck 2026",
+        "published_at": "2026-06-16T20:24:33Z",
+        "duration": 378,
+        "scheduled_start_time": "2026-06-16T14:00:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "axEfNSG14Ko",
         "title": "Lead finals | Innsbruck 2026",
         "published_at": "2026-06-14T14:24:49Z",
@@ -394,14 +402,6 @@
             "UZ",
             "VA"
         ]
-    },
-    {
-        "video_id": "g5dYOqcJAxI",
-        "title": "Para Climbing finals | Innsbruck 2026",
-        "published_at": "2026-06-14T13:47:17Z",
-        "duration": 0,
-        "scheduled_start_time": "2026-06-16T14:00:00Z",
-        "restricted_regions": []
     },
     {
         "video_id": "mIKt_7kJDAw",
