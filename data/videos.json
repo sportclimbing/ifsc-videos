@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "oU3vCBggIYo",
+        "title": "Speed Mixed Relay qualifications | Krak\u00f3w 2026",
+        "published_at": "2026-07-03T16:53:25Z",
+        "duration": 52,
+        "scheduled_start_time": "2026-07-03T16:00:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "4itiLmBQre8",
         "title": "Speed qualifications | Krak\u00f3w 2026",
         "published_at": "2026-07-03T12:02:04Z",
@@ -215,14 +223,6 @@
             "UZ",
             "VA"
         ]
-    },
-    {
-        "video_id": "oU3vCBggIYo",
-        "title": "Speed Mixed Relay qualifications | Krak\u00f3w 2026",
-        "published_at": "2026-07-03T00:15:39Z",
-        "duration": 0,
-        "scheduled_start_time": "2026-07-03T16:00:00Z",
-        "restricted_regions": []
     },
     {
         "video_id": "axEfNSG14Ko",
