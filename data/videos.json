@@ -1,5 +1,21 @@
 [
     {
+        "video_id": "cknjBBAZgJQ",
+        "title": "Speed Relay qualifications | Krak\u00f3w 2026",
+        "published_at": "2026-07-05T09:50:13Z",
+        "duration": 78,
+        "scheduled_start_time": "2026-07-05T08:30:00Z",
+        "restricted_regions": []
+    },
+    {
+        "video_id": "SEqCcq2XCx8",
+        "title": "Speed in the heart of Krakow \ud83c\uddf5\ud83c\uddf1",
+        "published_at": "2026-07-05T08:04:02Z",
+        "duration": 0,
+        "scheduled_start_time": null,
+        "restricted_regions": []
+    },
+    {
         "video_id": "zZH5jl5p_z8",
         "title": "The race that decided the first ever World Climbing Series Speed Mixed Relay",
         "published_at": "2026-07-04T15:30:53Z",
@@ -162,7 +178,7 @@
         "title": "Speed Relay finals | Krak\u00f3w 2026",
         "published_at": "2026-07-03T00:27:06Z",
         "duration": 0,
-        "scheduled_start_time": "2026-07-05T14:30:00Z",
+        "scheduled_start_time": "2026-07-05T10:00:00Z",
         "restricted_regions": [
             "AD",
             "AL",
@@ -223,14 +239,6 @@
             "UZ",
             "VA"
         ]
-    },
-    {
-        "video_id": "cknjBBAZgJQ",
-        "title": "Speed Relay qualifications | Krak\u00f3w 2026",
-        "published_at": "2026-07-03T00:25:09Z",
-        "duration": 0,
-        "scheduled_start_time": "2026-07-05T10:30:00Z",
-        "restricted_regions": []
     },
     {
         "video_id": "axEfNSG14Ko",
