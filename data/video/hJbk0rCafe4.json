@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "SEfjG3Kvabe0dpI3NzXDysQHoOQ",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "wiI5VNNZ1u_a5Z84iiSpbaumkvs",
+      "id": "hJbk0rCafe4",
+      "contentDetails": {
+        "duration": "PT26S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
