@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "EO0nwCP7PjcyV0yzQDTqry4XJBo",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "5LWvz03T_uEn5f8oNKN4RdgmgeU",
+      "id": "GILvpusXZEs",
+      "contentDetails": {
+        "duration": "PT38S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
