@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "ByyDjIvUtoUkxIEXUrGUvNND7rQ",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "lkmigmCoNuMgC1U8Yec3qwfDXY0",
+      "id": "HcrvVB_CMPU",
+      "contentDetails": {
+        "duration": "PT20M8S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
