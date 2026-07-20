@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "N73DuHwxsko",
+        "title": "U19 Lead finals | Arco 2026",
+        "published_at": "2026-07-20T20:48:22Z",
+        "duration": 94,
+        "scheduled_start_time": "2026-07-20T19:00:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "hV6zXdVpfB8",
         "title": "U17 Lead finals | Arco 2026",
         "published_at": "2026-07-20T19:11:40Z",
@@ -77,14 +85,6 @@
         "published_at": "2026-07-20T07:19:22Z",
         "duration": 0,
         "scheduled_start_time": "2026-07-21T09:00:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "N73DuHwxsko",
-        "title": "U19 Lead finals | Arco 2026",
-        "published_at": "2026-07-20T07:16:32Z",
-        "duration": 0,
-        "scheduled_start_time": "2026-07-20T19:00:00Z",
         "restricted_regions": []
     },
     {
