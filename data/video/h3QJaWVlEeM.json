@@ -1,21 +1,23 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "HF7_7GKMn9iG_EE3mFbLmcpYD-c",
+  "etag": "zk65BcQzxcvzRNvSmlTcWCnd2n4",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "ZZbxlTO4mZ5uc1HRs1CT4A7Lg7M",
+      "etag": "acIL-UdhCpsFIlCFNS9GAMaqQYY",
       "id": "h3QJaWVlEeM",
       "contentDetails": {
-        "duration": "P0D",
+        "duration": "PT1H50M6S",
         "dimension": "2d",
-        "definition": "sd",
+        "definition": "hd",
         "caption": "false",
         "licensedContent": true,
         "contentRating": {},
         "projection": "rectangular"
       },
       "liveStreamingDetails": {
+        "actualStartTime": "2026-07-21T09:00:01Z",
+        "actualEndTime": "2026-07-21T10:49:50Z",
         "scheduledStartTime": "2026-07-21T09:00:00Z"
       }
     }
