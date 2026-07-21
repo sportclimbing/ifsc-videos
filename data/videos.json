@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "jWOhtXEF5VQ",
+        "title": "U19 Speed qualifications | Arco 2026",
+        "published_at": "2026-07-21T16:39:07Z",
+        "duration": 98,
+        "scheduled_start_time": "2026-07-21T15:00:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "h3QJaWVlEeM",
         "title": "U17 Speed qualifications | Arco 2026",
         "published_at": "2026-07-21T10:53:29Z",
@@ -77,14 +85,6 @@
         "published_at": "2026-07-20T07:25:34Z",
         "duration": 0,
         "scheduled_start_time": "2026-07-21T18:30:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "jWOhtXEF5VQ",
-        "title": "U19 Speed qualifications | Arco 2026",
-        "published_at": "2026-07-20T07:22:02Z",
-        "duration": 0,
-        "scheduled_start_time": "2026-07-21T15:00:00Z",
         "restricted_regions": []
     },
     {
