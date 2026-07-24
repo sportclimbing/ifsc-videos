@@ -1,5 +1,13 @@
 [
     {
+        "video_id": "xt1ROUQA9Kc",
+        "title": "U17 Boulder semi-finals | Arco 2026",
+        "published_at": "2026-07-24T09:46:25Z",
+        "duration": 161,
+        "scheduled_start_time": "2026-07-24T07:00:00Z",
+        "restricted_regions": []
+    },
+    {
         "video_id": "X8ClIi_BJIg",
         "title": "Speed finals | Arco 2026",
         "published_at": "2026-07-21T21:09:25Z",
@@ -77,14 +85,6 @@
         "published_at": "2026-07-20T07:32:32Z",
         "duration": 0,
         "scheduled_start_time": "2026-07-24T16:00:00Z",
-        "restricted_regions": []
-    },
-    {
-        "video_id": "xt1ROUQA9Kc",
-        "title": "U17 Boulder semi-finals | Arco 2026",
-        "published_at": "2026-07-20T07:30:48Z",
-        "duration": 0,
-        "scheduled_start_time": "2026-07-24T07:00:00Z",
         "restricted_regions": []
     },
     {
@@ -320,7 +320,7 @@
     },
     {
         "video_id": "z-iOs4BdjsI",
-        "title": "For the second year in a row, Desak Made Rita Kusuma Dewi \ud83c\uddee\ud83c\udde9 takes gold in Krakow \ud83c\uddf5\ud83c\uddf1",
+        "title": "ANOTHER ONE! \u270c\ufe0f Desak Kusuma Dewi takes another gold in Krakow! \ud83e\udd47",
         "published_at": "2026-07-06T13:15:23Z",
         "duration": 0,
         "scheduled_start_time": null,
@@ -328,7 +328,7 @@
     },
     {
         "video_id": "hJbk0rCafe4",
-        "title": "\ud83e\udd47 Sam Watson \ud83c\uddfa\ud83c\uddf8 took gold in the heart of Krakow \ud83c\uddf5\ud83c\uddf1 in the men\u2019s individual Speed",
+        "title": "Sam Watson \ud83c\uddfa\ud83c\uddf8 wins the FIRST-EVER FOUR-LANE gold medal race!",
         "published_at": "2026-07-06T12:03:03Z",
         "duration": 0,
         "scheduled_start_time": null,
@@ -336,7 +336,7 @@
     },
     {
         "video_id": "6JK9McJXj8k",
-        "title": "\ud83d\udea8 The first woman to do a sub-6 \ud83e\udd2f Women\u2019s Speed world record. 5.99s. Emma Hunt \ud83c\uddfa\ud83c\uddf8",
+        "title": "WORLD RECORD ALERT! \ud83d\udea8 EMMA HUNT IS THE FIRST WOMAN TO GO SUB-6! \ud83e\udd2f",
         "published_at": "2026-07-05T16:34:50Z",
         "duration": 0,
         "scheduled_start_time": null,
@@ -419,7 +419,7 @@
     },
     {
         "video_id": "SEqCcq2XCx8",
-        "title": "Speed in the heart of Krakow \ud83c\uddf5\ud83c\uddf1",
+        "title": "Speed Climbing in the HEART OF KRAKOW! \ud83c\uddf5\ud83c\uddf1",
         "published_at": "2026-07-05T08:04:02Z",
         "duration": 0,
         "scheduled_start_time": null,
@@ -427,7 +427,7 @@
     },
     {
         "video_id": "zZH5jl5p_z8",
-        "title": "The race that decided the first ever World Climbing Series Speed Mixed Relay",
+        "title": "The race that decided the FIRST-EVER Speed Mixed Relay final! \ud83d\udd25",
         "published_at": "2026-07-04T15:30:53Z",
         "duration": 0,
         "scheduled_start_time": null,
