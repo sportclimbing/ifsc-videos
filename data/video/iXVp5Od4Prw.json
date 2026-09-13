@@ -1,0 +1,29 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "rd9MP-gF8JVZ1U_vLActhCSLxyM",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "tR-VyQFkMu1AcI3HSRedStBRjZw",
+      "id": "iXVp5Od4Prw",
+      "contentDetails": {
+        "duration": "PT32M55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-09-13T04:44:41Z",
+        "actualEndTime": "2026-09-13T05:17:20Z",
+        "scheduledStartTime": "2026-09-13T05:00:00Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
