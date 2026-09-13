@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "0hAEi14vHONwPSpCqssFR_PKD3s",
+  "etag": "ZTDKtkqxIxpPIgq9poy2iuRL1ko",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "5gkoyjyjp-yLUj4IipXa-iWQAvU",
+      "etag": "Fo6HNkSCwmLzQ61wVhvTpcjxFLk",
       "id": "NodZ4CS8v3E",
       "contentDetails": {
         "duration": "P0D",
@@ -16,7 +16,7 @@
         "projection": "rectangular"
       },
       "liveStreamingDetails": {
-        "scheduledStartTime": "2026-09-13T03:00:00Z"
+        "scheduledStartTime": "2026-09-13T02:55:00Z"
       }
     }
   ],
