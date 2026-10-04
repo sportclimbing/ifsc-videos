@@ -1,0 +1,30 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "rCf9rW8oTSxRtqe9P-3NPdyj4A8",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "oETccmxYONl6_wdziFry4m2Rxvw",
+      "id": "lBb2gtVNzbE",
+      "contentDetails": {
+        "duration": "PT2H14M38S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2018-08-11T06:58:04Z",
+        "actualEndTime": "2018-08-11T09:12:32Z",
+        "scheduledStartTime": "2018-08-11T07:00:00Z",
+        "scheduledEndTime": "2018-08-11T12:00:00Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
