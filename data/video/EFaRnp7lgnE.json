@@ -1,0 +1,29 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "ISaSGJOzinq2oe7G7pPKgyIcARI",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "iXD8cyYB44VjnFjZDqNqrksIHn8",
+      "id": "EFaRnp7lgnE",
+      "contentDetails": {
+        "duration": "PT2H3M56S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2017-04-23T09:59:09Z",
+        "actualEndTime": "2017-04-23T12:02:54Z",
+        "scheduledStartTime": "2017-04-23T10:00:00Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

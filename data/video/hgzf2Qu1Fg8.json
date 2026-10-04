@@ -1,0 +1,30 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "_4jyvCA58QEFJtsmXsOTIQQBGBg",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "971W0bFafP0AaKCeQVHjiddEnNU",
+      "id": "hgzf2Qu1Fg8",
+      "contentDetails": {
+        "duration": "PT2H43M4S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2012-09-15T19:13:34Z",
+        "actualEndTime": "2012-09-15T21:56:35Z",
+        "scheduledStartTime": "2012-09-15T19:10:00Z",
+        "scheduledEndTime": "2012-09-15T21:15:00Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
